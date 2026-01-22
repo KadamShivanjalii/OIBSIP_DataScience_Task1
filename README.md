@@ -1,71 +1,78 @@
-# OIBSIP_DataScience_Task1
+# Iris Flower Classification using Machine Learning
 
-## Project Title
-Iris Flower Classification Using Machine Learning
-
-## Project Description
-This project demonstrates a simple machine learning classification task using the Iris flower dataset.  
-The goal is to classify iris flowers into different species based on their physical features such as sepal length, sepal width, petal length, and petal width.
-
-The project is implemented using Python and the K-Nearest Neighbors (KNN) algorithm and executed using Google Colab.
+## Project Objective
+The objective of this project is to develop a Machine Learning model that classifies iris flowers into different species based on their physical features.  
+This project demonstrates a complete machine learning workflow using the **K-Nearest Neighbors (KNN)** algorithm.
 
 ---
 
-## Objective
-To build and evaluate a machine learning model that accurately classifies iris flower species using the KNN algorithm.
+## Dataset
 
----
+### Dataset Name
+Iris Flower Dataset
 
-## Algorithm Used
-K-Nearest Neighbors (KNN)  
-KNN is a supervised machine learning algorithm that classifies data points based on the majority class of their nearest neighbors.
+### Dataset Source
+UCI Machine Learning Repository
+
+### Dataset Download Link
+https://raw.githubusercontent.com/jbrownlee/Datasets/master/iris.csv
+
+### Dataset Description
+The dataset consists of **150 samples** with the following attributes:
+- Sepal Length
+- Sepal Width
+- Petal Length
+- Petal Width
+- Species (Iris-setosa, Iris-versicolor, Iris-virginica)
 
 ---
 
 ## Tools and Technologies Used
-- Python  
-- Google Colab  
-- Scikit-learn  
-- GitHub  
-
----
-
-## Dataset Information
-- Dataset Name: Iris Dataset  
-- Source: Built-in dataset from the scikit-learn library  
-- Total Samples: 150  
-- Classes: Setosa, Versicolor, Virginica  
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+- Jupyter Notebook / Google Colab
 
 ---
 
 ## Methodology / Steps Performed
-• Imported required libraries  
-• Loaded the Iris dataset  
-• Split the dataset into training and testing sets  
-• Created the KNN classifier model  
-• Trained the model using training data  
-• Made predictions on test data  
-• Evaluated the model using accuracy score  
-
----
-
-## Results
-The KNN model achieved high classification accuracy, indicating effective prediction of iris flower species.
+1. Downloaded the real Iris dataset in CSV format from a public repository.
+2. Loaded the dataset using Pandas and performed initial data exploration.
+3. Analyzed dataset structure and summary statistics.
+4. Visualized feature relationships using pair plots.
+5. Split the dataset into training and testing sets.
+6. Trained a K-Nearest Neighbors (KNN) classification model.
+7. Evaluated model performance using:
+   - Confusion Matrix
+   - Classification Report
+   - Accuracy Score
 
 ---
 
 ## How to Run the Project
-1. Open the `.ipynb` file in Google Colab  
-2. Run all cells sequentially  
-3. Observe the model accuracy output  
+1. Clone or download this repository.
+2. Ensure that `iris.csv` is placed in the same directory as the notebook.
+3. Open `iris_classification.ipynb` using Jupyter Notebook or Google Colab.
+4. Run all the cells sequentially.
+5. Observe the visualizations and evaluation results.
 
 ---
 
-## Outcome
-This project helped in understanding:
-- Basics of supervised machine learning  
-- Implementation of KNN algorithm  
-- Dataset handling and model evaluation using scikit-learn  
+## Expected Output
+- Dataset preview and information summary.
+- Pairplot visualization showing relationships among features.
+- Confusion Matrix displaying classification results.
+- Classification Report with precision, recall, and F1-score.
+- Accuracy score of approximately **90% or higher**.
+
+---
+
+## Results and Conclusion
+The KNN classification model successfully predicts iris flower species with high accuracy.  
+The results indicate that the model performs well on the given dataset and effectively demonstrates the application of machine learning techniques on real-world data.
 
 ---
 
